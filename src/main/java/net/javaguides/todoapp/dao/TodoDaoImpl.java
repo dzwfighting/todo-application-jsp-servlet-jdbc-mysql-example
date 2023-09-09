@@ -86,6 +86,7 @@ public class TodoDaoImpl implements TodoDao{
         } catch (SQLException e) {
             JDBCUtils.printSQLException(e);
         }
+        System.out.println("todos");
         return todos;
     }
 
